@@ -44,7 +44,7 @@ function showRandomEntry() {
   const entry = entries[Math.floor(Math.random() * entries.length)];
   const imageNumber = imageNumbers[Math.floor(Math.random() * imageNumbers.length)];
   textElement.textContent = entry;
-  imageElement.src = `/static/pngs/${imageNumber}.png`;
+  imageElement.src = `./static/pngs/${imageNumber}.png`;
 }
 
 fetch(document.body.dataset.source)
