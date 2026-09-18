@@ -6,7 +6,7 @@ const closeButton = document.querySelector('#close-lightbox');
 for (let number = 1; number <= 111; number += 1) {
   const link = document.createElement('a');
   const image = document.createElement('img');
-  const source = `/static/paintings/${number}.jpg`;
+  const source = `./static/paintings/${number}.jpg`;
 
   link.href = source;
   image.src = source;
